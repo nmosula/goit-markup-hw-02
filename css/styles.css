@@ -1,16 +1,16 @@
 :root {
-   --ws-blue:          #2196F3;
-   --ws-grey:          #757575;
-   --ws-darkgrey:      #212121;
-   --ws-lightgrey:     #F5F4FA;
-   --ws-black:         #000000;
-   --ws-main-bgcolor:  #FFF;
-   --ws-section-bg-dark:#2F303A;
-   --ws-border-line:   #EEEEEE;
-   --ws-bottom-line:   #ECECEC;
-   --ws-button-hover:  #188CE8;
-   --ws-font-raleway:  'Raleway', sans-serif;
-   --ws-font-roboto:   'Roboto', sans-serif;
+   --ws-blue: #2196F3;
+   --ws-grey: #757575;
+   --ws-darkgrey: #212121;
+   --ws-lightgrey: #F5F4FA;
+   --ws-black: #000000;
+   --ws-main-bgcolor: #FFF;
+   --ws-section-bg-dark: #2F303A;
+   --ws-border-line: #EEEEEE;
+   --ws-bottom-line: #ECECEC;
+   --ws-button-hover: #188CE8;
+   --ws-font-raleway: 'Raleway', sans-serif;
+   --ws-font-roboto: 'Roboto', sans-serif;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
 }
 
 .header a:link,
-.header a:visited{
+.header a:visited {
    text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .nav-pages li,
-.nav-contact li  {
+.nav-contact li {
    display: inline-block;
    padding: 0 25px;
    font-weight: 500;
@@ -74,7 +74,7 @@ body {
 
 .nav-pages a:link,
 .nav-pages a:visited {
-color: var(--ws-darkgrey);
+   color: var(--ws-darkgrey);
 }
 
 .nav-pages a:focus,
@@ -102,7 +102,7 @@ color: var(--ws-darkgrey);
    color: var(--ws-blue);
 }
 
- /* main css*/
+/* main css*/
 
 .welcome {
    background-color: var(--ws-section-bg-dark);
@@ -110,6 +110,7 @@ color: var(--ws-darkgrey);
    width: 100%;
    text-align: center;
 }
+
 .welcome h1 {
    font-weight: 900;
    font-size: 44px;
@@ -122,7 +123,7 @@ color: var(--ws-darkgrey);
    margin: 0 auto;
    width: 700px;
    color: var(--ws-main-bgcolor);
-} 
+}
 
 
 .welcome-button {
@@ -302,7 +303,7 @@ color: var(--ws-darkgrey);
    text-align: left;
    margin: 0 24px;
    color: var(--ws-darkgrey);
- }
+}
 
 .our-portfolio-list-item p {
    font-size: 16px;
@@ -311,7 +312,7 @@ color: var(--ws-darkgrey);
    text-align: left;
    margin: 0 24px;
    color: var(--ws-grey);
-    
+
 }
 
 /* footer css*/
@@ -347,7 +348,7 @@ color: var(--ws-darkgrey);
 
 
 .contact-address a.contact-map:link,
-.contact-address a.contact-map:visited  {
+.contact-address a.contact-map:visited {
    color: var(--ws-main-bgcolor);
 }
 
@@ -355,4 +356,3 @@ color: var(--ws-darkgrey);
 .contact-address a:hover {
    color: var(--ws-blue);
 }
-
